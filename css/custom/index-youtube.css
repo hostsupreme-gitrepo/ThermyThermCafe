@@ -28,12 +28,11 @@
 1.0 Custom Font Declarations(if any)
 ================================================================== */
 @font-face {
-    font-family:'TeXGyreHeros';
+    font-family: 'TeXGyreHeros';
     src: url('../fonts/TeXGyreHeros-Bold.eot');
-	src: url('../fonts/TeXGyreHeros-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/TeXGyreHeros-Bold.woff2') format('woff2'),
-		url('../fonts/TeXGyreHeros-Bold.woff') format('woff'),
-		url('../fonts/TeXGyreHeros-Bold.svg#TeXGyreHeros-Bold') format('svg');
+    src: url('../fonts/TeXGyreHeros-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TeXGyreHeros-Bold.woff2') format('woff2'), url('../fonts/TeXGyreHeros-Bold.woff') format('woff'),
+        url('../fonts/TeXGyreHeros-Bold.svg#TeXGyreHeros-Bold') format('svg');
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
@@ -46,7 +45,8 @@
 
 /* 2.1 Font Style Declarations and Other Fixes
 -------------------------------------------------------------- */
-.fontLoaded .sven-container { /* Teaser Font */
+.fontLoaded .sven-container {
+    /* Teaser Font */
     font-family: 'TeXGyreHeros', sans-serif;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .sound-info {
-    font-family: "Arial", sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 #stomp-intro h1 {
@@ -65,7 +65,7 @@ body {
 .lt-main {
     font-weight: normal;
     font-size: 18px; /* Fallback for Browsers not supporting vw units */
-	font-size: 5vw;
+    font-size: 5vw;
     line-height: 1.1;
     white-space: nowrap;
 }
@@ -88,22 +88,22 @@ body {
     margin: 0;
 }
 
-.pl-wrapper { /* Hide Player Controls by default */
+.pl-wrapper {
+    /* Hide Player Controls by default */
     display: none;
 }
 
 /* 2.2 Font Colors and Backgrounds
-Stamp - #FF4266, Content BG - #FFF, Headline - #111517,
+Stamp - #000, Content BG - #FFF, Headline - #111517,
 Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 -------------------------------------------------------------- */
-.sk-double-bounce .sk-child /* Preloader Circle Color */
-{
-    background: none #FFF;
+.sk-double-bounce .sk-child /* Preloader Circle Color */ {
+    background: none #fff;
 }
 
 /* Teaser Content BG and Text Color */
 .bg-white {
-    background: #FFF;
+    background: #fff;
 }
 
 .bg-white .lt-main {
@@ -116,16 +116,16 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* Revealer Background */
 .revealer {
-    background: #FFFDA1;
+    background: #fffda1;
 }
 
 /* Main Page */
 #intro-content {
-    background: #FF4266;
+    background: #000;
 }
 
 #main-content {
-    background: #FFF;
+    background: #fff;
 }
 
 /* Buttons */
@@ -134,17 +134,19 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
     color: #292323;
 }
 
-.form-group .btn-bordered:hover,.form-group .btn-bordered:active {
+.form-group .btn-bordered:hover,
+.form-group .btn-bordered:active {
     background: #292323;
-    color: #FFF
+    color: #fff;
 }
 
-.btn-fill, #submit-form.btn-fill {
-    background: #FF4266;
+.btn-fill,
+#submit-form.btn-fill {
+    background: #000;
 }
 
 #submit-form.btn-fill:hover {
-    background: #FFF;
+    background: #fff;
 }
 
 .addr-details a:hover {
@@ -152,12 +154,14 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 }
 
 /* Custom Scrollbar */
-.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
     background: #292323;
 }
 
 .mCSB_scrollTools .mCSB_draggerRail {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
@@ -165,7 +169,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 }
 
 .vid-fallback {
-    background-image: url("../../images/youtube/particles-fallback.jpg");
+    background-image: url('../../images/youtube/particles-fallback.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -175,22 +179,22 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 }
 
 .sub-bg {
-	background-image: url("../../images/youtube/sub-bg.jpg");
-	background-color: #111517;
+    background-image: url('../../images/youtube/sub-bg.jpg');
+    background-color: #111517;
 }
 
 .sub-bg::before {
-    background: rgba(0,0,0,0.75);
+    background: rgba(0, 0, 0, 0.75);
 }
 
-#intro-content::before, .splash-page::before {
-    background-image: url("../../images/youtube/main-bg.jpg");
+#intro-content::before,
+.splash-page::before {
+    background-image: url('../../images/youtube/main-bg.jpg');
 }
 
 .tf-logo {
     width: 324px;
 }
-
 
 /* ==================================================================
 3.0 - Responsive Styles
@@ -198,7 +202,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* 3.1 - Small Devices, Tablets (≥768px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
     .lt-main {
         font-size: 38px;
         font-size: 4.5vw;
@@ -217,7 +221,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* 3.2 - Medium Devices, Desktops (≥992px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width: 992px) {
     .lt-main {
         font-size: 48px;
         font-size: 4.5vw;
@@ -236,7 +240,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* 3.3 - Large Devices, Desktops (≥1200px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width: 1200px) {
     .lt-main {
         font-size: 64px;
         font-size: 4.5vw;
@@ -257,8 +261,8 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
     }
 
     .btn-fill {
-        background: #292323;
-        color: #FFF
+        background: #6f6b6b;
+        color: #fff;
     }
 
     .tf-logo {
@@ -268,7 +272,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* 3.4 - Wide Screens, Desktops (≥1824px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width: 1824px) {
     .lt-main {
         font-size: 92px;
         font-size: 4.5vw;

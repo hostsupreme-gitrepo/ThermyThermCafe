@@ -39,21 +39,20 @@ body {
 }
 
 /* 2.2 Font Colors and Backgrounds
-Stamp - #FF4266, Content BG - #FFF, Headline - #111517,
+Stamp - #000, Content BG - #FFF, Headline - #111517,
 Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 -------------------------------------------------------------- */
-.sk-double-bounce .sk-child /* Preloader Circle Color */
-{
-    background: none #FFF;
+.sk-double-bounce .sk-child /* Preloader Circle Color */ {
+    background: none #fff;
 }
 
 /* Main Page */
 #intro-content {
-    background: #FF4266;
+    background: #000;
 }
 
 #main-content {
-    background: #FFF;
+    background: #fff;
 }
 
 /* Buttons */
@@ -62,17 +61,19 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
     color: #292323;
 }
 
-.form-group .btn-bordered:hover,.form-group .btn-bordered:active {
+.form-group .btn-bordered:hover,
+.form-group .btn-bordered:active {
     background: #292323;
-    color: #FFF
+    color: #fff;
 }
 
-.btn-fill, #submit-form.btn-fill {
-    background: #FF4266;
+.btn-fill,
+#submit-form.btn-fill {
+    background: #000;
 }
 
 #submit-form.btn-fill:hover {
-    background: #FFF;
+    background: #fff;
 }
 
 .addr-details a:hover {
@@ -80,12 +81,14 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 }
 
 /* Custom Scrollbar */
-.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
     background: #292323;
 }
 
 .mCSB_scrollTools .mCSB_draggerRail {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
@@ -93,18 +96,17 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 }
 
 .sub-bg {
-	background-image: url("../../images/youtube/sub-bg.jpg");
-	background-color: #111517;
+    background-image: url('../../images/youtube/sub-bg.jpg');
+    background-color: #111517;
 }
 
 .sub-bg::before {
-    background: rgba(0,0,0,0.75);
+    background: rgba(0, 0, 0, 0.75);
 }
 
 #intro-content::before {
-    background-image: url("../../images/youtube/main-bg.jpg");
+    background-image: url('../../images/youtube/main-bg.jpg');
 }
-
 
 /* ==================================================================
 3.0 - Responsive Styles
@@ -112,32 +114,30 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* 3.1 - Small Devices, Tablets (≥768px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 768px) {
-
+@media only screen and (min-width: 768px) {
 }
 
 /* 3.2 - Medium Devices, Desktops (≥992px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 992px) {
-
+@media only screen and (min-width: 992px) {
 }
 
 /* 3.3 - Large Devices, Desktops (≥1200px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width: 1200px) {
     .addr-details {
         text-align: center;
     }
 
     .btn-fill {
-        background: #292323;
-        color: #FFF
+        background: #6f6b6b;
+        color: #fff;
     }
 }
 
 /* 3.4 - Wide Screens, Desktops (≥1824px)
 -------------------------------------------------------------- */
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width: 1824px) {
     .addr-details {
         text-align: left;
     }
