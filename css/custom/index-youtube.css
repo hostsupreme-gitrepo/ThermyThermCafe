@@ -116,7 +116,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 
 /* Revealer Background */
 .revealer {
-    background: #fffda1;
+    background: #5f6574;
 }
 
 /* Main Page */
@@ -179,7 +179,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #292323
 }
 
 .sub-bg {
-    background-image: url('../../images/youtube/sub-bg.jpg');
+    background-image: url('../../images/food/Food2.jpg');
     background-color: #111517;
 }
 
