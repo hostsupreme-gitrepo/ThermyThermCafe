@@ -154,7 +154,7 @@ $(function() {
 	TTBD : Revert to previous version as in Sven
 	================================================================== */
 	if($(".st-countdown").length) {
-		var launchDate = $(".st-countdown").attr("data-launch-date") ? $(".st-countdown").attr("data-launch-date") : new Date(new Date("2021-01-26").getTime() + 0);
+		var launchDate = $(".st-countdown").attr("data-launch-date") ? $(".st-countdown").attr("data-launch-date") : new Date(new Date("January 17, 2021 1:00:00").getTime() );
 		$(".st-countdown").countdown(launchDate, function(event) {
 			$(this).text(
 				event.strftime('%D Days %H:%M:%S')
